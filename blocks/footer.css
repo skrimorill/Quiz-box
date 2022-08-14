@@ -1,0 +1,19 @@
+
+
+.footer__left {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 65px;
+  margin-left: 102px;
+}
+
+.footer__rigth {
+  display: flex;
+  justify-content: end;
+  margin-top: -63px;
+  margin-right: 98px;
+}
+
+.footer-container__section {
+  height: 150px;
+}

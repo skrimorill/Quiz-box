@@ -1,0 +1,18 @@
+.offers__new {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.title__news {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.offers__news-icon {
+  height: 42px;
+  width: 42px;
+  margin-left: 11px;
+  margin-top: 4px;
+}
+
