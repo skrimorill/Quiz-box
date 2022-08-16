@@ -1,5 +1,5 @@
 .offers {
-  margin-bottom: 118px;
+  margin-bottom: 122px;
 }
 
 .offers__list {
@@ -21,10 +21,10 @@
 }
 
 .offers__header {
-  height: 162px;
-  margin-bottom: 15px;
+  height: 144px;
   overflow: hidden;
-  border-radius: 5px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .offers__features {
@@ -34,7 +34,6 @@
 
 .offers__feature {
   display: flex;
-  margin-left: 26px;
 }
 
 .offers__feature:last-child {
@@ -42,7 +41,6 @@
 }
 
 .offers__title {
-  margin-left: 20px;
   font-size: 24px;
   font-weight: 700;
   color: #000000;
@@ -53,6 +51,9 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  padding-top: 33px;
+  margin-left: 20px;
+  margin-bottom: 30px;
 }
 
 .offers__feature-text {
@@ -64,6 +65,5 @@
 .offers__text {
   font-size: 14px;
   color: #303030;
-  margin-left: 20px;
   margin-bottom: 25px;
 }

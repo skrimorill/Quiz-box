@@ -1,6 +1,6 @@
 .offers__new {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   margin-bottom: 50px;
 }
 
@@ -13,6 +13,5 @@
   height: 42px;
   width: 42px;
   margin-left: 11px;
-  margin-top: 4px;
 }
 

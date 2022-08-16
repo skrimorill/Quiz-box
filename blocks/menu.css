@@ -1,5 +1,4 @@
 .menu__list {
-  margin-bottom: 22px;
   margin-left: 32px;
   display: flex;
 }
@@ -28,6 +27,5 @@
 
 .menu-footer {
   display: flex;
-  margin-top: 4px;
   margin-left: 99px;
 }

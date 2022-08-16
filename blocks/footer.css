@@ -1,19 +1,11 @@
-
-
-.footer__left {
+.footer__content {
   display: flex;
-  justify-content: flex-start;
-  margin-top: 65px;
-  margin-left: 102px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%
 }
 
-.footer__rigth {
+.footer__col {
   display: flex;
-  justify-content: end;
-  margin-top: -63px;
-  margin-right: 98px;
-}
-
-.footer-container__section {
-  height: 150px;
+  align-items: center;
 }

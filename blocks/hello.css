@@ -1,14 +1,11 @@
-.hello__container {
-  display: flex;
-  flex-direction: column;
-  min-height: 373px;
+.hello__content {
   width: 60%;
   margin-bottom: 193px;
-  margin-left: 98px;
 }
 
 .hello__title {
   margin-bottom: 20px;
+  padding-right: 338px;
 }
 
 .hello__subtitle {

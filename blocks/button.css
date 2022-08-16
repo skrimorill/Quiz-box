@@ -1,4 +1,5 @@
 .button{
+  display: inline-block;
   background: rgba(143, 0, 255, 1);
   border-radius: 5px;
   padding: 17px 39px;
@@ -7,7 +8,6 @@
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
-  width: 168px;
 }
 
 .button:hover {
@@ -16,9 +16,6 @@
 }
 
 .offers__button {
-  width: 136px;
-  margin-left: 22px;
-  margin-bottom: 30px;
   margin-top: auto;
   padding: 17px 32px;
   color: rgba(143, 0, 255, 1);

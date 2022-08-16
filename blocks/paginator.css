@@ -3,14 +3,13 @@
   justify-content: center;
   align-items: center;
   margin-right: 33px;
-  margin-bottom: 77px;
+  margin-bottom: 148px;
 }
 
 .paginator__list {
   display: flex;
   justify-content: center;
   margin-left: 31px;
-  margin-top: -5px;
 }
 
 .paginator__item {
@@ -24,6 +23,8 @@
 
 .paginator__href {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -39,6 +40,7 @@
 
 .service__paginator {
   color: rgba(0, 0, 0, 1);
+  margin-bottom: 0px;
 }
 
 .service__paginator .paginator__item--active .paginator__href:hover {

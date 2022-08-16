@@ -13,25 +13,30 @@
 }
 
 .past__list {
-  margin-bottom: 84px;
+  margin-bottom: 57px;
   display: flex;
   justify-content: space-between;
 }
 
 .past__img {
   object-fit: cover;
-  overflow: hidden;
-  border-radius: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 .past__text-content {
-  align-self: center; 
-  margin-left: 26px;
-  margin-top: -148px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 26px
 }
 
 .past__content {
+  position: relative;
   margin-right: 2%;
+  overflow: hidden;
+  border-radius: 5px;
   flex: 1;
 }
 
