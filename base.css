@@ -58,7 +58,7 @@ img {
   min-width: 1200px;
   display: flex;
   flex-direction: column;
-  background: url("img/fon1.png") center top no-repeat, url("img/Fon2.png") center bottom 150px no-repeat;
+  background: url("img/fon1.png") center top no-repeat, url("img/Fon2.png") center bottom 111px no-repeat;
 }
 
 .wrapper__content {

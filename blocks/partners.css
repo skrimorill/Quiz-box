@@ -1,7 +1,12 @@
 .partners {
+  padding: 87px 0px 5px;
+}
+
+.partners__container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 66px;
 }
 
@@ -21,7 +26,7 @@
 }
 
 .partners__item {
-  min-width: 218px;
+  min-width: 230px;
   max-width: 263px;
   flex-grow: 1;
   margin-right: 14px;
@@ -39,11 +44,7 @@
   margin-left: auto;
 }
 
-.partners__link {
+.partners__link:hover {
   text-decoration: none;
   filter: grayscale(1);
-}
-
-.partners__link:hover {
-  filter: grayscale(100%);
 }
