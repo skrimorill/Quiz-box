@@ -6,6 +6,10 @@
   margin-bottom: 148px;
 }
 
+.paginator__review {
+  margin-bottom: 89px;
+}
+
 .paginator__list {
   display: flex;
   justify-content: center;
@@ -47,4 +51,14 @@
   color: white;
 }
 
+.paginator__href-review {
+  color: rgba(0, 0, 0, 1);
+}
 
+.paginator__item--active .paginator__href-review {
+  color: white;
+}
+
+.paginator__display-review {
+  color: rgba(0, 0, 0, 1);
+}

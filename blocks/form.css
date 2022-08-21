@@ -1,0 +1,105 @@
+.inner__section-form {
+  background: #F4F5F5;;
+}
+
+.form__container {
+  background: #F4F5F5;;
+}
+
+.form__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 29px;
+}
+
+.form__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: rgba(26, 27, 30, 1);
+  padding-top: 61px;
+  margin-bottom: 58px;
+}
+
+.form__input {
+  background-color: #ffffff;
+  padding: 19px 30px 21px;
+  font-size: 18px;
+  line-height: 1.16;
+  border: inherit;
+  flex: 1;
+  margin-right: 28px;
+  border-radius: 5px;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input:focus {
+  outline: 1px solid #8F00FF;
+}
+
+.form__input--textarea {
+  background-color: #ffffff;
+  font-size: 18px;
+  line-height: 1.4;
+  border: inherit;
+  height: 235px;
+  width: 100%;
+  resize: none;
+  border-radius: 5px;
+}
+
+.form__input--textarea:focus {
+  outline: 1px solid #8F00FF;
+}
+
+.form__controls {
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.form__controls-title {
+  width: 35%;
+  margin-right: 30px;
+  padding-top: 11px;
+  font-size: 18px;
+  color: #1A1B1E;
+}
+
+.form__controls-list {
+  flex: 1;
+}
+
+.control {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.control__elem {
+  position: relative;
+}
+
+.control__tag {
+  font-size: 13px;
+  color: #303030;
+  line-height: 1.15;
+  padding: 9px 15px;
+  background-color: #e7e7e7;
+  border: inherit;
+  border-radius: 35px;
+}
+
+.control__checkbox:checked + .control__tag {
+  background-color: #aed1cd;
+}
+
+.control__checkbox {
+  position: absolute;
+  appearance: none;
+}
+
+.control__checkbox:focus + .control__tag {
+  outline: 1px solid #aed1cd;
+}

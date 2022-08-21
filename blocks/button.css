@@ -43,3 +43,17 @@
   color: #fff;
   background: rgba(143, 0, 255, 1);
 }
+
+.welcome__button {
+  padding: 17px 60px;
+}
+
+.form__row--buttons {
+  justify-content: flex-end;
+  gap: 17px;
+  border: inherit;
+}
+
+.botton--theme--black {
+  background: #2B2B2B
+}
