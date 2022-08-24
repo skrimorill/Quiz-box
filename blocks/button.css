@@ -13,6 +13,7 @@
 .button:hover {
   background: #d3a556;
   box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15);
+  transition: 1s;
 }
 
 .offers__button {
