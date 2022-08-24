@@ -19,7 +19,7 @@
   border-radius: 5px;
   margin-left: 38px;
   padding: 22px 19px 15px 0;
-  background: url("/img/drop.png");
+  background: url("img/drop.png");
   display: none;
 }
 

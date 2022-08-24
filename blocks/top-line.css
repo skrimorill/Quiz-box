@@ -1,7 +1,7 @@
 .top-line {
   display: flex;
   flex-direction: column;
-  background: url("/img/fon1.png") right 49% top 55% no-repeat;
+  background: url("img/fon1.png") right 49% top 55% no-repeat;
 }
 
 .top-line__container {
