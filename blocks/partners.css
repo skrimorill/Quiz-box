@@ -44,8 +44,12 @@
   margin-left: auto;
 }
 
-.partners__link:hover {
-  text-decoration: none;
+.partners__link {
   filter: grayscale(1);
   transition: 1s;
+}
+
+.partners__link:hover {
+  text-decoration: none;
+  filter: grayscale(0);
 }

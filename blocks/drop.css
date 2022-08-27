@@ -10,19 +10,44 @@
 
 .drop__break {
   font-size: 13px;
-  padding-right: 10px;
 }
 
 .drop__wrapper {
-  width: 157px;
   position: absolute;
   border-radius: 5px;
-  margin-left: 38px;
-  padding: 22px 19px 15px 0;
-  background: url("img/drop.png");
-  display: none;
+  padding: 11px 19px 15px 19px;
+  background: #EDEDED;
+  color: #1E1F20;
+  top: 100%;
+  left: -9999px;
+  text-align: left;
+  margin-top: 15px;
 }
 
 .drop:hover .drop__wrapper {
+  right: 0;
+  left: initial;
+  opacity: 1;
+}
+
+.drop__wrapper:before {
+  content: '';
   display: block;
+  position: absolute;
+  left: 109px;
+  top: -7px;
+  width: 15px;
+  height: 15px;
+  background: #EDEDED;
+  transform: rotate(45deg);
+}
+
+.drop__wrapper:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -22px;
+  width: 100%;
+  height: 27px;
 }

@@ -1,5 +1,7 @@
-.inner__section-form {
-  background: #F4F5F5;;
+.inner__section--form {
+  background: #F4F5F5;
+  padding-top: 61px;
+  padding-bottom: 96px;
 }
 
 .form__container {
@@ -16,7 +18,6 @@
   font-size: 48px;
   font-weight: bold;
   color: rgba(26, 27, 30, 1);
-  padding-top: 61px;
   margin-bottom: 58px;
 }
 
@@ -103,4 +104,20 @@
 
 .control__checkbox:focus + .control__tag {
   outline: 1px solid #aed1cd;
+}
+
+.form__row--buttons {
+  justify-content: flex-end;
+  gap: 17px;
+  border: inherit;
+  margin-bottom: 0;
+}
+
+.botton--theme--black {
+  background: #2B2B2B
+}
+
+.botton--theme--black:hover {
+  color: black;
+  border: 1px solid black;
 }

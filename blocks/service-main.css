@@ -41,4 +41,14 @@
   margin-bottom: 70px;
 }
 
+.service__button--light {
+  color: rgba(143, 0, 255, 1);
+  background: #fff;
+  border: 1px solid rgba(143, 0, 255, 1);
+}
+
+.service__button--light:hover {
+  color: #fff;
+  background: rgba(143, 0, 255, 1);
+}
 

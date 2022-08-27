@@ -14,17 +14,16 @@
 
 .menu__item--active .menu__link {
   color: #dfb56d;
-  transition: 1s;
 }
 
 .menu__link {
   font-size: 16px;
   text-decoration: none;
+  transition: 1s;
 }
 
 .menu__link:hover {
   color: #dfb56d;
-  transition: 1s;
 }
 
 .menu-footer {

@@ -26,6 +26,10 @@
   margin-bottom: 30px;
 }
 
+.welcome__button {
+  padding: 17px 60px;
+}
+
 @keyframes bounce {
   0% {
     transform: translateY(0);

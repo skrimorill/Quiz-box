@@ -15,3 +15,26 @@
   margin-left: 11px;
 }
 
+.offers__button {
+  margin-top: auto;
+  padding: 17px 32px;
+  color: rgba(143, 0, 255, 1);
+  background: #fff;
+  border: 1px solid rgba(143, 0, 255, 1);
+}
+
+.offers__button--light {
+  color: #fff;
+  background: rgba(143, 0, 255, 1);
+}
+
+.offers__button--light:hover {
+  color:rgba(143, 0, 255, 1);
+  background: #fff;
+}
+
+.offers__button:hover {
+  color: #fff;
+  background: rgba(143, 0, 255, 1);
+}
+
