@@ -45,7 +45,7 @@
 }
 
 .review__user:after {
-  content: url("img/vk-blue1.png");
+  content: url("../img/vk-blue1.png");
   height: 27px;
 }
 
@@ -88,7 +88,7 @@
 
 .selection__game {
   min-height: 363px;
-  background: #17191C url("img/selection.png") right 27% bottom no-repeat;
+  background: #17191C url("../img/selection.png") right 27% bottom no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
