@@ -3,7 +3,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url("img/fon1.png") center top 41px no-repeat;
+  background: url("../img/fon1.png") center top 41px no-repeat;
   display: flex;
   position: fixed;
   align-items: center;
